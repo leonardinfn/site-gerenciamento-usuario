@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../css/administração.css">
+  <title>Consulta</title>
+</head>
+<body>
+  <header>
+    <h1>Olá, seja bem-vindo a página de administração dos usuários!</h1><br>
+    <a href="index.html" class="voltar">Voltar</a>
+  </header>
+  <main>
+    <div class="opções">
+      <button id="btnConsulta" name="btnConsulta" class="Consulta">Consultar</button>
+      <button id="btnDeletar" name="btnDeletar" class="Deletar">Deletar</button>
+    </div>
+    <dialog id="modalConsulta" class="dialogConsulta">
+      <div class="formConsulta">
+        <form>
+          <label for="emailConsulta">Email:</label>
+          <input type="email" id="emailConsulta" placeholder="Digite o email do usuário" required>
+          <button id="btnBuscarC" name="btnBuscar" class="btnBuscar">Buscar</button>
+          <button id="btnFecharC" name="btnFechar" class="btnFechar">Fechar</button>
+        </form>
+      </div>
+    </dialog>
+    <dialog id="modalDeletar" class="dialogDeletar">
+      <div class="formDeletar">
+        <form>
+          <label for="emailDeletar">Email:</label>
+          <input type="email" id="emailDeletar" placeholder="Digite o email do usuário" required>
+          <button id="btnDeleção" name="btnSalvar" class="btnDeleção">Deletar</button>
+          <button id="btnFecharD" name="btnFechar" class="btnFecharD">Fechar</button>
+        </form>
+      </div>
+    </dialog>
+  </main>
+  <script src="../js/administração.js"></script>
+</body>
+</html></html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de cadastro</title>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Olá, seja bem-vindo a nossa página de cadastro ao usuário!</h1><br>
+  </header>
+  
+  <main class="formulario">
+    <h2>Por favor, preencha os campos abaixo:</h2><br>
+    <form action="" method="post" id="formCadastro">
+      <div>
+        <label for="meunome">Nome Completo: <br>
+        <input id="meunome" type="text" size="30" required>
+        </label><br>
+      </div>
+      
+      <div>
+        <label for="dataNasc">Data de Nascimento: <br>
+        <input id="dataNasc" type="date" placeholder="Data de Nascimento" required>
+        </label><br>
+      </div>
+      
+      <div>
+        <label for="telefone">Telefone: <br>
+        <input id="telefone" type="tel" placeholder="(xx) xxxxx-xxxx" required>
+        </label><br>
+      </div>
+      
+      <div>
+        <label for="meuemail">E-mail: <br>
+        <input id="meuemail" type="email" size="30" required>
+        </label><br>
+      </div>
+    <button type="submit" id="btnCadastrar" name="btnCadastrar" class="Cadastrar">Cadastrar</button>
+  </form>
+  </main>
+  <footer>
+    <div class="administração">
+      <a href="administração.html" class="admUsu">Administração dos usuários cadastrados</a>
+    </div>
+  </footer>
+  <script src="../js/index.js"></script>
+</body>
+</html>
